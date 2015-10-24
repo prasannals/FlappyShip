@@ -19,8 +19,8 @@ public class ParseFeed {
 	 * This method is to parse a GeoRSS feed corresponding to earthquakes around
 	 * the globe.
 	 * 
-	 * @param p - PApplet version 2.1
-	 * @param fileName - http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.atom
+	 * @param p - PApplet being used
+	 * @param fileName - file name or URL for data source
 	 */
 	public static List<PointFeature> parseEarthquake(PApplet p, String fileName) {
 		List<PointFeature> features = new ArrayList<PointFeature>();
